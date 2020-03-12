@@ -1,4 +1,4 @@
-''' TO FIND THE DOMINANT EIGENVALUE USING POWER METHOD
+''' TO FIND THE DOMINANT EIGENVALUE AND EIGENVECTOR USING POWER METHOD
 NAME: SAGAR DAM; DEPT: DNAP'''
 
 import numpy as np
@@ -28,7 +28,7 @@ c=c/(np.trace(((c[0][0])**2+(c[1][0])**2+(c[2][0])**2)))**0.5
 print("The dominant eigenvector with that,(",i,") itns: ")
 print(c)
 
-#finding the corresponding eigenvector:
+#finding the eigenvectors with numpy functions:
 print()
 print("If we find with numpy function, then: ")
 print("the eigenvectors are given by:")
